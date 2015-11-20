@@ -21,7 +21,8 @@ public class DownloadServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		ServletContext servletContext = getServletContext();
-		response.setContentType("application/jar");
+		response.setContentType("APPLICATION/OCTET-STREAM");    
+		response.setHeader("Content-Disposition","attachment; filename=" + "abc.jar" ); 
 		InputStream inputStream = servletContext.getResourceAsStream("/abc.jar");
 		OutputStream outputStream = response.getOutputStream();
 		
