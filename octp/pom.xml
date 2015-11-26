@@ -27,5 +27,6 @@
     <module>002-SimpleMVCDemoCoffieAdviceApp</module>
     <module>002-SimpleMVCDemo</module>
     <module>003-DownloadFileDemo</module>
+    <module>004-InitParamDemo</module>
   </modules>
 </project>
