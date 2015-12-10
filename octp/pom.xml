@@ -28,5 +28,6 @@
     <module>002-SimpleMVCDemo</module>
     <module>003-DownloadFileDemo</module>
     <module>004-InitParamDemo</module>
+    <module>005-ServletContextListenerDemo</module>
   </modules>
 </project>
